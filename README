@@ -25,3 +25,8 @@ quick and dirty usocket based file transfer client/server, SBCL only, usocket ne
             (update-ready-and-state-slots (wait-list-waiters wait-list)))
 
 
+usage:
+
+./server port-to-listen
+
+./client server-host server-port /path/to/remote/filename
